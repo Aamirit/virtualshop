@@ -1,0 +1,5 @@
+Bootstrap 5
+bootstrap icons
+slick slider
+Animate.css
+jquery

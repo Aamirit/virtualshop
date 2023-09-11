@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Shop<./title>
+    <link rel="stylesheet" href="./assets./css./bootstrap.min.css">
+    <link rel="stylesheet" href="./assets./css./bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets./css./fontawesome.css">
+    <link rel="stylesheet" href="./assets./css./slick.css">
+
+
+    <link rel="stylesheet" href="./assets./css./theme.css">
+    <link rel="stylesheet" href="./assets./css./mediaQuery.css">
+    <script src="./assets./js./jquery.min.js" defer><./script>
+    <script src="./assets./js./popper.min.js" defer><./script>
+    <script src="./assets./js./bootstrap.min.js" defer><./script>
+    <script src="./assets./js./slick.min.js" defer><./script>
+    <script src="./assets./js./script.js" defer><./script>
+<./head>
+
+<body class="bg-darkLight">
+
+    <!-- Header Navbar Start -->
+    <header class="pt-3 position-relative">
+        <nav class="navbar navbar-expand-lg position-relative">
+            <div class="container">
+                <a class="navbar-brand nerophsm_outer px-3 py-2" href="index.html">
+                    <img src="./assets./images./logo-min.png" alt="" class="img-fluid">
+                <./a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><./span>
+                <./button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <button class="btn-close nerophsm_outer" type="button" data-bs-target="close-nav"><./button>
+                    <ul class="navbar-nav px-lg-3">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-lg-3" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                              <i class="fa-solid fa-angle-down"><./i>
+                            <./a>
+                            <ul class="dropdown-menu nerophsm_outer">
+                                <li><a class="dropdown-item" href="index.html">Home 1<./a><./li>
+                                <li><a class="dropdown-item" href="index2.html">Home 2<./a><./li>
+                            <./ul>
+                        <./li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-lg-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Shop 
+                              <i class="fa-solid fa-angle-down"><./i>
+                            <./a>
+                            <ul class="dropdown-menu nerophsm_outer mega">
+                                <div class="container-fluid">
+                                    <div class="row px-3 py-2">
+                                        <div class="col-md-3 col-12">
+                                            <h3>Shop by latest<./h3>
+                                            <ul class="navbar-nav d-block">
+                                                <li>
+                                                    <a class="text-decoration-none position-relative" href="product-details.html">Shoes 
+                                                        <span class="badge bg-danger badgeMenu">Hot<./span>
+                                                    <./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none position-relative" href="product-details.html">Men's 
+                                                        <span class="badge bg-primary badgeMenu">latest<./span>
+                                                    <./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none position-relative" href="product-details.html">Watches 
+                                                        <span class="badge bg-danger badgeMenu">New<./span>
+                                                    <./a>
+                                                <./li>
+                                            <./ul>
+                                        <./div>
+                                        <div class="col-md-3 col-12">
+                                            <h3>Shop by collections<./h3>
+                                            <ul class="navbar-nav d-block">
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">Men's<./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">Women's<./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">Watches<./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">Shoes<./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">Socks<./a>
+                                                <./li>
+                                            <./ul>
+                                        <./div>
+                                        <div class="col-md-3 col-12 byColor">
+                                            <h3>Shop by Color<./h3>
+                                            <ul class="navbar-nav d-block">
+                                                <li>
+                                                    <a class="text-decoration-none position-relative" href="product-details.html">
+                                                        <i class="fa-solid fa-circle h3 text-danger"><./i>
+                                                        <span class="ps-2">Red<./span>
+                                                    <./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none position-relative" href="product-details.html">
+                                                        <i class="fa-solid fa-circle h3 text-success"><./i>
+                                                        <span class="ps-2">Green<./span>
+                                                    <./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none position-relative" href="product-details.html">
+                                                        <i class="fa-solid fa-circle h3 text-primary"><./i>
+                                                        <span class="ps-2">Blue<./span>
+                                                    <./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none position-relative" href="product-details.html">
+                                                        <i class="fa-solid fa-circle h3 text-dark"><./i>
+                                                        <span class="ps-2">Black<./span>
+                                                    <./a>
+                                                <./li>
+                                            <./ul>
+                                        <./div>
+                                        <div class="col-md-3 col-12">
+                                            <h3>Shop by brand<./h3>
+                                            <ul class="navbar-nav d-block">
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">
+                                                        <img src="./assets./images./Brand-Logo-3-min.png" alt="Brand-Logo" class="img-fluid">
+                                                    <./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">
+                                                        <img src="./assets./images./Brand-Logo-6-min.png" alt="Brand-Logo" class="img-fluid">
+                                                    <./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">
+                                                        <img src="./assets./images./Brand-Logo-5-min.png" alt="Brand-Logo" class="img-fluid">
+                                                    <./a>
+                                                <./li>
+                                                <li>
+                                                    <a class="text-decoration-none" href="javascript:void(0)">
+                                                        <img src="./assets./images./Brand-Logo-4-min.png" alt="Brand-Logo" class="img-fluid">
+                                                    <./a>
+                                                <./li>
+                                            <./ul>
+                                        <./div>
+                                    <./div>
+                                <./div>
+                            <./ul>
+                        <./li>
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-3" href="blog-list.html">Blog<./a>
+                        <./li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-lg-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Pages
+                              <i class="fa-solid fa-angle-down"><./i>
+                            <./a>
+                            <ul class="dropdown-menu nerophsm_outer">
+                                <li><a class="dropdown-item" href="login.html">Sign Up<./a><./li>
+                                <li><a class="dropdown-item" href="about-us.html">About Us<./a><./li>
+                                <li><a class="dropdown-item" href="contact-us.html">Contact Us<./a><./li>
+                                <li><a class="dropdown-item" href="cart.html">Cart<./a><./li>
+                                <li><a class="dropdown-item" href="checkout.html">CheckOut<./a><./li>
+                            <./ul>
+                        <./li>
+                    <./ul>
+                <./div>
+                <ul class="navbar-nav d-none d-lg-flex svgMain">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <button class="btn btn-default nerophsm_outer px-2 py-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#searchBarBottom" aria-controls="searchBarBottom">
+                            <i class="fa-solid fa-magnifying-glass"><./i>
+                          <./button>
+                        <./a>
+                    <./li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <button class="btn btn-default nerophsm_outer px-2 py-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#profileRight" aria-controls="profileRight">
+                            <i class="fa-solid fa-user"><./i>
+                          <./button>
+                        <./a>
+                    <./li>
+                    <./li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <button class="btn btn-default nerophsm_outer px-2 py-1 position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartRight" data-count="0" aria-controls="cartRight">
+                            <i class="fa-solid fa-cart-shopping"><./i>
+                          <./button>
+                        <./a>
+                    <./li>
+                <./ul>
+            <./div>
+        <./nav>
+    <./header>
+    <!-- Header Navbar End -->
+
+    <main>
+
+        <section class="py-md-5 pt-3 pb-5">
+            <div class="container">
+                <div class="col-12 text-center">
+                    <p class="mb-4 text-muted text-start">Home &nbsp;> &nbsp;404<./p>
+                    <h1 id="text404">404<./h1>
+                    <h3>Page Not Found<./h3>
+                    <p class="text-muted mt-3">We looked everywhere for this page.Are you sure the website URL is correct? Get in <br> touch with the site owner.<./p>
+                    <a class="btn btn-default nerophsm_outer d-inline-block" href="./index.html">Go Back<./a>
+                <./div>
+            <./div>
+        <./section>
+
+    <./main>
+
+    <!-- Footer Start -->
+    <footer class="pt-md-3 py-0">
+        <div class="container">
+            <div class="row black-border-bottom1">
+                <div class="col-md-7 col-12 mb-md-3">
+                    <h5 class="text-capitalize">Newsletter subscription<./h5>
+                    <p class="text-muted">
+                        Sign up for Shop updates to receive information about new arrivals, future events and special discounts.
+                    <./p>
+                <./div>
+                <div class="col-md-5 col-12 d-flex align-items-center mb-sm-3 mb-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control py-2 nerophsm_inner" placeholder="test@gmail.com" ./>
+                        <button type="submit" class="btn btn-default nerophsm_outer py-2 input-group-text">
+                          <i class="fa-solid fa-paper-plane"><./i>
+                        <./button>
+                    <./div>
+                <./div>
+                <div class="col-md-2 col-sm-4 py-sm-2 col-12 footer_Links">
+                    <h5>Shop<./h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">Trending<./a>
+                        <./li>
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">New In<./a>
+                        <./li>
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">Sale & Special Offers<./a>
+                        <./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Men's<./a><./li>
+
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Shoes<./a><./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Bags<./a><./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Top Brands<./a><./li>
+                    <./ul>
+                <./div>
+                <div class="col-md-2 col-sm-4 py-sm-2 col-12 footer_Links">
+                    <h5>Information<./h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">About Us<./a>
+                        <./li>
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">Customer Service<./a>
+                        <./li>
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">Blog<./a>
+                        <./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Page 404<./a>
+                        <./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Sizing Guide<./a>
+                        <./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">FAQs<./a>
+                        <./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Contact Us<./a>
+                        <./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Documentation<./a>
+                        <./li>
+                    <./ul>
+                <./div>
+                <div class="col-md-2 col-sm-4 py-sm-2 col-12 footer_Links">
+                    <h5>Order<./h5>
+                    <ul class="list-unstyled mt-2">
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">My Account<./a>
+                        <./li>
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">View Cart<./a>
+                        <./li>
+                        <li class="mb-1">
+                            <a class="ps-3 p-2 d-block" href="javascript:void(0)">Privacy Policy<./a>
+                        <./li>
+                        <li><a class="ps-3 p-2 d-block" href="javascript:void(0)">Cookie Policy<./a>
+                        <./li>
+                    <./ul>
+                <./div>
+                <div class="col-md-4 col-sm-8 py-sm-2 col-12 footer_Links">
+                    <h5>Here to help<./h5>
+                    <p class="text-muted">
+                        Have a question? You may find an answer in our FAQs. But you can also contact us:
+                    <./p>
+                    <h6>Customer Services<./h6>
+                    <div class="row">
+                        <div class="col-1 pe-0 mb-2">
+                            <i class="fa-solid fa-phone"><./i>
+                        <./div>
+                        <div class="col-11 mb-2">
+                            <small class="text-muted">
+                                Call Us: <a href="tel:800-000-1234" class="footerLink__contact text-muted">800-000-1234<./a>
+                            <./small>
+                        <./div>
+                        <div class="col-1 pe-0 mb-2">
+                            <i class="fa-regular fa-clock"><./i>
+                        <./div>
+                        <div class="col-11 mb-2">
+                            <small class="text-muted">
+                                Mon-Fri: 9:00 am - 6:00 pm<br>
+                                Sat: 9:00 am - 4:00 pm<br>
+                                Sun: 9:00 am - 2:00 pm
+                            <./small>
+                        <./div>
+                        <div class="col-1 pe-0 mb-2">
+                            <i class="fa-regular fa-envelope"><./i>
+                        <./div>
+                        <div class="col-11 mb-2">
+                            <small>
+                                <a class="text-muted footerLink__contact" href="mailto:theme@gmail.com">Send us an email<./a>
+                            <./small>
+                        <./div>
+                    <./div>
+                <./div>
+                <div class="col-md-2 col-sm-4 py-sm-2 col-12 footer_Links">
+                    <h5>Follow Us<./h5>
+                    <ul class="social_Links2 mt-2 ps-0">
+                        <li class="list-unstyled me-md-3 me-2 rounded-circle">
+                            <a href="javascript:Void(0)">
+                                <i class="fa-brands fa-facebook-f nerophsm_outer"><./i>
+                                <span>Facebook<./span>
+                            <./a>
+                        <./li>
+                        <li class="list-unstyled me-md-3 me-2 rounded-circle">
+                            <a href="javascript:Void(0)">
+                                <i class="fa-brands fa-twitter nerophsm_outer"><./i>
+                                <span>Twitter<./span>
+                            <./a>
+                        <./li>
+                        <li class="list-unstyled me-md-3 me-2 rounded-circle">
+                            <a href="javascript:Void(0)">
+                                <i class="fa-brands fa-instagram nerophsm_outer"><./i>
+                                <span>Instagram<./span>
+                            <./a>
+                        <./li>
+                        <li class="list-unstyled me-md-3 me-2 rounded-circle">
+                            <a href="javascript:Void(0)">
+                                <i class="fa-brands fa-skype nerophsm_outer"><./i>
+                                <span>Skype<./span>
+                            <./a>
+                        <./li>
+                    <./ul>
+                <./div>
+            <./div>
+            <div class="row py-3">
+                <div class="col-md-6 col-12 order-md-first d-flex align-items-center justify-content-md-start justify-content-center">
+                    <div class="footer__logo me-3 d-none d-md-block">
+                        <a href="#">
+                            <img src="./assets./images./logo-min.png" alt="logo" width="65px">
+                        <./a>
+                    <./div>
+                    <small class="text-muted mb-0">
+                            ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            <./script> New Virtual Theme. All Rights Reserved. Ecommerce Software by Shopify.
+                        <./small>
+                <./div>
+                <div class="col-md-6 col-12 order-md-last order-first">
+                    <ul class="paymentCard">
+                        <li><i class="fa-brands fa-cc-visa"><./i><./li>
+                        <li><i class="fa-brands fa-cc-mastercard"><./i><./li>
+                        <li><i class="fa-brands fa-cc-paypal"><./i><./li>
+                        <li><i class="fa-brands fa-cc-discover"><./i><./li>
+                        <li><i class="fa-brands fa-cc-stripe"><./i><./li>
+                    <./ul>
+                <./div>
+            <./div>
+        <./div>
+        <./di>
+    <./footer>
+    <!-- Footer Start -->
+
+    <!-- Search bar Top -->
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="searchBarBottom" aria-labelledby="searchBarBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="searchBarBottomLabel">Search Here...<./h5>
+            <button type="button" class="btn-close btn btn-default nerophsm_outer px-2 py-1" data-bs-dismiss="offcanvas" aria-label="Close"><./button>
+        <./div>
+        <div class="offcanvas-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <form action="">
+                            <div class="input-group input-group-lg mb-3">
+                                <input type="text" class="form-control nerophsm_inner" placeholder="Username" aria-label="Username">
+                                <button class="input-group-text btn btn-default nerophsm_outer">
+                                <i class="fa-solid fa-magnifying-glass"><./i>
+                              <./button>
+                            <./div>
+                        <./form>
+                    <./div>
+                <./div>
+            <./div>
+        <./div>
+    <./div>
+
+    <!-- Profile bar right -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="profileRight" aria-labelledby="profileRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="profileRightLabel">Profile<./h5>
+            <button type="button" class="btn-close btn btn-default nerophsm_outer px-2 py-1" data-bs-dismiss="offcanvas" aria-label="Close"><./button>
+        <./div>
+        <div class="offcanvas-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-center">Login Here<./h4>
+                        <form class="row g-3 mt-3">
+                            <div class="col-12">
+                                <input type="email" class="form-control form-control-lg" name="email" placeholder="Email ./ Username" id="inputEmail4">
+                            <./div>
+                            <div class="col-12">
+                                <input type="password" class="form-control form-control-lg" id="inputPassword4" placeholder="*******">
+                            <./div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-default nerophsm_outer">Log in<./button>
+                            <./div>
+                            <div class="col-12 pt-3">
+                                <p class="text-muted">
+                                    Don't have an account
+                                <./p>
+                                <a href="login.html" class="btn btn-default nerophsm_outer w-100">Create Account<./a>
+                            <./div>
+                        <./form>
+                    <./div>
+                <./div>
+            <./div>
+        <./div>
+    <./div>
+
+    <!-- Cart bar right Start -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartRight" aria-labelledby="cartRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cartRightLabel">Cart<./h5>
+            <button type="button" class="btn-close btn btn-default nerophsm_outer px-2 py-1" data-bs-dismiss="offcanvas" aria-label="Close"><./button>
+        <./div>
+        <div class="offcanvas-body">
+            <div class="container-fluid">
+                <div class="row cartMainSide">
+                    <div class="col-12">
+                        <div class="row white-border p-2 mb-md-3 mb-2">
+                            <div class="col-4 p-0 d-flex align-items-center justify-content-center">
+                                <img src="./assets./images./women1-min.jpg" alt="women1" class="img-fluid">
+                            <./div>
+                            <div class="col-8 p-0">
+                                <h4 class="mb-0 h5"><a href="">Jowl tender pork<./a><./h4>
+                                <p class="mb-1">
+                                    <small class="text-muted">S ./ Black<./small>
+                                    <a data-bs-toggle="modal" data-bs-target="#quickViewModal" href="#" class="ps-2">
+                                        <i class="fa-solid fa-pen-to-square"><./i>
+                                    <./a>
+                                <./p>
+                                <p class="mb-2">
+                                    <strong>$169.0<./strong>
+                                <./p>
+                                <div class="d-flex">
+                                    <div class="input-group w-50">
+                                        <button type="button" class="input-group-text minus" data-action="qtyBox">
+                                            <i class="fa-solid fa-minus"><./i>
+                                        <./button>
+                                        <input type="number" class="text-center form-control nerophsm_inner" value="1" min="1">
+                                        <button type="button" class="input-group-text plus" data-action="qtyBox">
+                                            <i class="fa-solid fa-plus"><./i>
+                                        <./button>
+                                    <./div>
+                                    <a href="" class="d-flex align-items-center removeItemCart w-50">
+                                        <small class="text-uppercase">Remove<./small>
+                                    <./a>
+                                <./div>
+
+                            <./div>
+                        <./div>
+                        <div class="row white-border p-2 mb-md-3 mb-2">
+                            <div class="col-4 p-0 d-flex align-items-center justify-content-center">
+                                <img src="./assets./images./product1-min.jpg" alt="product1" class="img-fluid">
+                            <./div>
+                            <div class="col-8 p-0">
+                                <h4 class="mb-0 h5"><a href="">Jowl tender pork<./a><./h4>
+                                <p class="mb-1">
+                                    <small class="text-muted">S ./ Black<./small>
+                                    <a data-bs-toggle="modal" data-bs-target="#quickViewModal" href="#" class="ps-2">
+                                        <i class="fa-solid fa-pen-to-square"><./i>
+                                    <./a>
+                                <./p>
+                                <p class="mb-2">
+                                    <strong>$169.0<./strong>
+                                <./p>
+                                <div class="d-flex">
+                                    <div class="input-group w-50">
+                                        <button type="button" class="input-group-text minus" data-action="qtyBox">
+                                            <i class="fa-solid fa-minus"><./i>
+                                        <./button>
+                                        <input type="number" class="text-center form-control nerophsm_inner" value="1" min="1">
+                                        <button type="button" class="input-group-text plus" data-action="qtyBox">
+                                            <i class="fa-solid fa-plus"><./i>
+                                        <./button>
+                                    <./div>
+                                    <a href="" class="d-flex align-items-center removeItemCart w-50">
+                                        <small class="text-uppercase">Remove<./small>
+                                    <./a>
+                                <./div>
+
+                            <./div>
+                        <./div>
+                        <div class="row white-border p-2 mb-md-3 mb-2">
+                            <div class="col-4 p-0 d-flex align-items-center justify-content-center">
+                                <img src="./assets./images./watch2-min.jpg" alt="watch2" class="img-fluid">
+                            <./div>
+                            <div class="col-8 p-0">
+                                <h4 class="mb-0 h5"><a href="">Jowl tender pork<./a><./h4>
+                                <p class="mb-1">
+                                    <small class="text-muted">S ./ Black<./small>
+                                    <a data-bs-toggle="modal" data-bs-target="#quickViewModal" href="#" class="ps-2">
+                                        <i class="fa-solid fa-pen-to-square"><./i>
+                                    <./a>
+                                <./p>
+                                <p class="mb-2">
+                                    <strong>$169.0<./strong>
+                                <./p>
+                                <div class="d-flex">
+                                    <div class="input-group w-50">
+                                        <button type="button" class="input-group-text minus" data-action="qtyBox">
+                                            <i class="fa-solid fa-minus"><./i>
+                                        <./button>
+                                        <input type="number" class="text-center form-control nerophsm_inner" value="1" min="1">
+                                        <button type="button" class="input-group-text plus" data-action="qtyBox">
+                                            <i class="fa-solid fa-plus"><./i>
+                                        <./button>
+                                    <./div>
+                                    <a href="" class="d-flex align-items-center removeItemCart w-50">
+                                        <small class="text-uppercase">Remove<./small>
+                                    <./a>
+                                <./div>
+
+                            <./div>
+                        <./div>
+                    <./div>
+                <./div>
+            <./div>
+        <./div>
+        <div class="offcanvas-footer container-fluid pb-3">
+            <div class="row cartFixedItems bg-light">
+                <div class="col-12 px-4">
+                    <div class="subTotalMain mt-3 mb-4">
+                        <p class="mb-0">Subtotal<./p>
+                        <strong class="subTotal h5 mb-0">$210.00<./strong>
+                    <./div>
+                    <button class="btn btn-default nerophsm_outer w-100 mb-3 fw-bold">Checkout<./button>
+                    <button class="btn btn-default nerophsm_outer w-100 fw-bold">View Cart<./button>
+                <./div>
+            <./div>
+        <./div>
+    <./div>
+    <!-- Cart bar right End -->
+
+
+    <!-- Quick View Modal Start -->
+    <div class="modal fade" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="quickViewModalLabel">Quick Product View<./h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><./button>
+                <./div>
+                <div class="modal-body">
+                    <section class="py-md-5 py-3 productDetail">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="productDetail_Slider">
+                                        <div>
+                                            <img src="./assets./images./product1-min.jpg" alt="product1" class="img-fluid">
+                                        <./div>
+                                        <div>
+                                            <img src="./assets./images./product2-min.jpg" alt="product2" class="img-fluid">
+                                        <./div>
+                                        <div>
+                                            <img src="./assets./images./product5-min.jpg" alt="product5" class="img-fluid">
+                                        <./div>
+                                    <./div>
+                                    <div class="productDetail_Slider_nav">
+                                        <div>
+                                            <img src="./assets./images./product1-min.jpg" alt="product1" class="img-fluid">
+                                        <./div>
+                                        <div>
+                                            <img src="./assets./images./product1-min.jpg" alt="product1" class="img-fluid">
+                                        <./div>
+                                        <div>
+                                            <img src="./assets./images./product2-min.jpg" alt="product2" class="img-fluid">
+                                        <./div>
+                                        <div>
+                                            <img src="./assets./images./product5-min.jpg" alt="product5" class="img-fluid">
+                                        <./div>
+                                    <./div>
+                                <./div>
+                                <div class="col-md-6 col-12 ps-md-4 scrollbar-hidden">
+                                    <form action="">
+                                        <h2>Men's Shoes<./h2>
+                                        <h4 class="text-danger">$120.00<./h4>
+                                        <!-- Description -->
+                                        <p class="text-muted">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa possimus vitae ratione doloribus, officiis consectetur laborum minus sequi ipsum ab similique adipisci.
+                                        <./p>
+                                        <!-- Variants -->
+                                        <div class="variantsMain mt-md-3 mb-2">
+                                            <h6 class="size-text">Size<./h6>
+                                            <ul class="list-unstyled size d-flex">
+                                                <li class="me-3 my-2">
+                                                    <input type="radio" class="btn-check" name="size" id="x-large" checked>
+                                                    <button type="button" class="btn btn-default nerophsm_outer" for="x-large" data-bs-toggle="tooltip" data-bs-placement="top" title="Extra Large">XL<./button>
+                                                <./li>
+                                                <li class="me-3 my-2">
+                                                    <input type="radio" class="btn-check" name="size" id="large">
+                                                    <button type="button" class="btn btn-default nerophsm_outer" for="large" data-bs-toggle="tooltip" data-bs-placement="top" title="Large">L<./button>
+                                                <./li>
+                                                <li class="me-3 my-2">
+                                                    <input type="radio" class="btn-check" name="size" id="medium">
+                                                    <button type="button" class="btn btn-default nerophsm_outer" for="medium" data-bs-toggle="tooltip" data-bs-placement="top" title="Medium">M<./button>
+                                                <./li>
+                                                <li class="me-3 my-2">
+                                                    <input type="radio" class="btn-check" name="size" id="small">
+                                                    <button type="button" class="btn btn-default nerophsm_outer" for="small" data-bs-toggle="tooltip" data-bs-placement="top" title="Small">S<./button>
+                                                <./li>
+                                            <./ul>
+
+                                            <h6 class="size-text">Color<./h6>
+                                            <ul class="list-unstyled d-flex color">
+                                                <li class="me-3 my-2">
+                                                    <input type="radio" class="btn-check" name="color" id="red" checked>
+                                                    <button type="button" class="btn btn-default nerophsm_outer" for="red" data-bs-toggle="tooltip" data-bs-placement="top" title="Red">R<./button>
+                                                <./li>
+                                                <li class="me-3 my-2">
+                                                    <input type="radio" class="btn-check" name="color" id="green">
+                                                    <button type="button" class="btn btn-default nerophsm_outer" for="green" data-bs-toggle="tooltip" data-bs-placement="top" title="Green">G<./button>
+                                                <./li>
+                                                <li class="me-3 my-2">
+                                                    <input type="radio" class="btn-check" name="color" id="blue">
+                                                    <button type="button" class="btn btn-default nerophsm_outer" for="blue" data-bs-toggle="tooltip" data-bs-placement="top" title="Blue">B<./button>
+                                                <./li>
+                                            <./ul>
+                                        <./div>
+                                        <!-- Quantity & Size Chart -->
+                                        <div class="row">
+                                            <div class="quantityMain col-md-6 col-12">
+                                                <h6 class="mb-3">Quantity:<./h6>
+                                                <div class="input-group mb-3">
+                                                    <button type="button" class="input-group-text minus" data-action="qtyBox">
+                                                            <i class="fa-solid fa-minus"><./i>
+                                                        <./button>
+                                                    <input type="number" class="text-center form-control nerophsm_inner" value="1" min="1">
+                                                    <button type="button" class="input-group-text plus" data-action="qtyBox">
+                                                        <i class="fa-solid fa-plus"><./i>
+                                                    <./button>
+                                                <./div>
+                                            <./div>
+                                        <./div>
+                                        <!-- Cart Button -->
+                                        <button class="btn btn-default nerophsm_outer d-block my-md-4 my-3 w-100" type="submit" id="cartBtn">Add to cart <i class="fa-solid fa-cart-shopping ps-2"><./i><./button>
+                                        <a href="./checkout.html">
+                                            <button class="btn btn-danger d-block my-md-4 mt-2 mb-3 w-100" type="button" id="buyNowBtn">Buy It Now<./button>
+                                        <./a>
+
+                                    <./form>
+                                <./div>
+                            <./div>
+                        <./div>
+                    <./section>
+                <./div>
+            <./div>
+        <./div>
+    <./div>
+    <!-- Quick View Modal End -->
+
+
+<./body>
+
+<./html>
